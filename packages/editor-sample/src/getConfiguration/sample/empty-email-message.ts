@@ -1,5 +1,6 @@
 import { TEditorConfiguration } from '../../documents/editor/core';
 
+// Define the empty email message as a fallback configuration
 const EMPTY_EMAIL_MESSAGE: TEditorConfiguration = {
   root: {
     type: 'EmailLayout',
@@ -12,5 +13,7 @@ const EMPTY_EMAIL_MESSAGE: TEditorConfiguration = {
     },
   },
 };
+
+
 
 export default EMPTY_EMAIL_MESSAGE;
