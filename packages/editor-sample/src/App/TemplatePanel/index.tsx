@@ -54,7 +54,7 @@ export default function TemplatePanel() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(`http://127.0.0.1:8000/api/email-template-json/${template_id}`);
+        const response = await fetch(`https://staging-api.train321.com/api/email-template-json/${template_id}`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

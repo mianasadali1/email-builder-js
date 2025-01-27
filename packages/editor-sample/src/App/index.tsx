@@ -26,7 +26,7 @@ export default function App() {
   return (
     <>
       <InspectorDrawer />
-      <SamplesDrawer />
+      
 
       <Stack
         sx={{
